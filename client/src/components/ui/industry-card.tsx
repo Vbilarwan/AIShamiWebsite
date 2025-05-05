@@ -19,7 +19,7 @@ export function IndustryCard({ name, icon, delay = 0 }: IndustryCardProps) {
         <div className="mb-4 text-3xl text-accent">
           <i className={icon}></i>
         </div>
-        <h3 className="text-primary dark:text-white text-center font-medium font-montserrat text-sm">
+        <h3 className="text-primary dark:text-white text-center font-medium font-montserrat text-sm md:text-base px-1">
           {name}
         </h3>
       </Hexagon>
