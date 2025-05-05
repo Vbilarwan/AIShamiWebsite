@@ -73,11 +73,12 @@ export function FounderSection() {
             variants={variants}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <div className="relative w-64 h-64 md:w-80 md:h-80">
-              <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-primary/20 rounded-full"></div>
-              <div className="absolute inset-4 bg-muted dark:bg-primary rounded-full flex items-center justify-center">
-                <i className="fas fa-user-tie text-6xl text-accent/30"></i>
-              </div>
+            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden">
+              <img 
+                src="/images/founder.png" 
+                alt="Vivek Singh Bilarwan" 
+                className="w-full h-full object-cover rounded-full border-4 border-accent/20"
+              />
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent rounded-full flex items-center justify-center text-white text-xl">
                 <i className="fas fa-brain"></i>
               </div>
