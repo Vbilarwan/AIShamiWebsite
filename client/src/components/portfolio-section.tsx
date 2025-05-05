@@ -8,6 +8,7 @@ const portfolioItems = [
     title: "AI Crypto Portfolio Manager",
     description: "An intelligent system that optimizes crypto portfolios using market trend analysis and risk assessment algorithms.",
     icon: "fas fa-coins",
+    image: "/images/industries/crypto.png",
     tags: ["Blockchain", "AI Analytics", "Prediction"],
     client: "Crypto Investment Firm"
   },
@@ -15,6 +16,7 @@ const portfolioItems = [
     title: "Luxury Customer Sentiment Analyzer",
     description: "Real-time analysis of customer sentiment across social media and review platforms for luxury brands.",
     icon: "fas fa-gem",
+    image: "/images/industries/business.png",
     tags: ["NLP", "Sentiment Analysis", "Social Media"],
     client: "Premium Fashion Brand"
   },
@@ -22,6 +24,7 @@ const portfolioItems = [
     title: "Financial Risk AI Dashboard",
     description: "Comprehensive risk assessment platform that predicts market volatility and generates mitigation strategies.",
     icon: "fas fa-chart-line",
+    image: "/images/industries/data.png",
     tags: ["Predictive Analytics", "Finance", "Risk Management"],
     client: "Investment Bank"
   }
@@ -69,6 +72,7 @@ export function PortfolioSection() {
               title={item.title}
               description={item.description}
               icon={item.icon}
+              image={item.image}
               tags={item.tags}
               client={item.client}
               delay={index * 0.1}

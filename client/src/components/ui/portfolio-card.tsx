@@ -6,10 +6,11 @@ interface PortfolioCardProps {
   icon: string;
   tags: string[];
   client: string;
+  image?: string;
   delay?: number;
 }
 
-export function PortfolioCard({ title, description, icon, tags, client, delay = 0 }: PortfolioCardProps) {
+export function PortfolioCard({ title, description, icon, tags, client, image, delay = 0 }: PortfolioCardProps) {
   return (
     <motion.div
       className="bg-white dark:bg-primary-light rounded-xl overflow-hidden shadow-sm dark:shadow-accent/5 hover:shadow-lg dark:hover:shadow-accent/10 transition-all duration-300"
@@ -18,12 +19,20 @@ export function PortfolioCard({ title, description, icon, tags, client, delay = 
       transition={{ duration: 0.5, delay }}
     >
       <div className="h-48 bg-primary-light dark:bg-primary relative">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center">
-            <i className={`${icon} text-2xl text-accent`}></i>
+        {image ? (
+          <img 
+            src={image} 
+            alt={title} 
+            className="w-full h-full object-cover"
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center">
+              <i className={`${icon} text-2xl text-accent`}></i>
+            </div>
           </div>
-        </div>
-        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary to-transparent h-20"></div>
+        )}
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent h-20"></div>
       </div>
       <div className="p-6">
         <h3 className="text-xl font-semibold font-montserrat mb-3 text-primary dark:text-white">{title}</h3>
