@@ -60,19 +60,23 @@ export function IndustriesSection() {
         </motion.div>
         
         <motion.div 
-          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8"
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-8"
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           variants={variants}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           {industries.map((industry, index) => (
-            <IndustryCard 
-              key={index}
-              name={industry.name}
-              icon={industry.icon}
-              delay={index * 0.1}
-            />
+            <div key={index} className="flex flex-col">
+              <IndustryCard 
+                name={industry.name}
+                icon={industry.icon}
+                delay={index * 0.1}
+              />
+              <div className="bg-white dark:bg-primary-light rounded-md py-2 px-3 mt-2 text-center shadow-md">
+                <p className="text-primary dark:text-white font-bold text-sm md:text-base">{industry.name}</p>
+              </div>
+            </div>
           ))}
         </motion.div>
         

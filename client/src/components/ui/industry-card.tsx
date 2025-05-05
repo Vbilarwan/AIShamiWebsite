@@ -19,8 +19,8 @@ export function IndustryCard({ name, icon, delay = 0 }: IndustryCardProps) {
         <div className="mb-3 text-3xl text-accent">
           <i className={icon}></i>
         </div>
-        <div className="bg-white/80 dark:bg-primary-light/90 rounded-md py-1 px-2 -mx-2 w-full">
-          <h3 className="text-primary dark:text-white text-center font-semibold font-montserrat text-sm md:text-base">
+        <div className="bg-white dark:bg-primary-light rounded-md py-2 px-3 -mx-2 w-full shadow-sm">
+          <h3 className="text-primary dark:text-white text-center font-bold font-montserrat text-sm lg:text-base">
             {name}
           </h3>
         </div>
