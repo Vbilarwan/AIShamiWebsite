@@ -1,0 +1,85 @@
+🌐 Design a Premium One-Page Website for Shamirael (AI Consulting Firm)
+
+Description:
+Create a sleek, premium one-page website for Shamirael, an AI consulting firm based in Indore, India.
+
+Key Details to Include:
+
+✅ Brand Name: Shamirael
+✅ Tagline (optional): Elevating Businesses Through AI Innovation
+
+✅ About Section:
+
+Introduce the company as an AI and automation consulting firm.
+
+Highlight that Shamirael helps companies across industries (crypto, luxury, finance, healthcare, etc.) use AI to increase profits, improve efficiency, and stay ahead of competition.
+
+Mention the founder:
+
+“Led by Vivek Singh Bilarwan, an AI strategist with experience working at Revolut and handling multiple global clients. Vivek brings deep expertise in crypto, AI automation, and growth strategy.”
+
+✅ Industries We Serve:
+
+Crypto & Blockchain
+
+Luxury Goods & Retail
+
+Financial Services & Banking
+
+Healthcare & Pharma
+
+Manufacturing & Supply Chain
+
+Emerging Startups & Tech
+
+✅ Services Offered:
+
+AI Business Consulting
+
+Automation Solutions (process automation, task automation)
+
+AI Agent Development
+
+Prompt Engineering & LLM Integration
+
+Custom AI Tool Development
+
+AI Implementation Roadmapping
+
+Profit Growth Strategy Using AI
+
+✅ AI Demo Tools or Portfolio Section:
+
+Add mock demos or describe AI tools we’ve developed (e.g., “AI-driven crypto portfolio manager,” “luxury customer sentiment analyzer,” “financial risk AI dashboards”).
+
+If no live demos yet, show screenshots or explain project capabilities.
+
+✅ Founder Section:
+
+Photo (optional) + brief bio of Vivek Singh Bilarwan, with notes on Revolut experience and multi-client leadership.
+
+✅ Lead Capture / Contact Section:
+
+Contact Email: info@shamirael.com
+
+Add a contact form for inquiries.
+
+Optionally, link to Calendly for free consultations.
+
+✅ Premium Visual Design:
+
+High-end, modern font.
+
+Elegant, minimalistic design.
+
+Smooth animations, subtle motion effects.
+
+Dark/light mode toggle (if possible).
+
+✅ Extra Features:
+
+Newsletter signup.
+
+Blog section or SEO-ready content blocks (even if minimal).
+
+Social media links (LinkedIn only, no other personal contacts).
